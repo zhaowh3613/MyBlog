@@ -1,0 +1,25 @@
+{
+  "name": "MyBlog",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "jade": "^1.11.0",
+    "mongodb": "^1.4.38",
+    "mongoskin": "^1.4.13",
+    "stylus": "^0.51.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.2.0",
+    "mocha": "^1.16.2",
+    "superagent": "^0.15.7"
+  }
+}
